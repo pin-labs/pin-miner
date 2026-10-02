@@ -1,0 +1,77 @@
+PIN MINER END-USER LICENSE AGREEMENT
+Version 1.0 — 2026
+
+Copyright (c) 2026 pin-labs. All rights reserved.
+"PIN MINER" and "pin-miner" refer to this software and its documentation.
+
+This Agreement governs your use of PIN MINER (the "Software"), a GPU miner for
+the Pearl (PRL) network distributed as a compiled binary. By downloading,
+installing or running the Software you agree to these terms. If you do not
+agree, do not use the Software.
+
+1. GRANT OF LICENSE
+   The copyright holder grants you a personal, non-exclusive, non-transferable,
+   revocable license to download and run unmodified copies of the Software to
+   mine the Pearl (PRL) network for your own benefit, subject to this Agreement.
+
+2. DEVELOPER FEE (DISCLOSED)
+   The Software mines for the developer's wallet 0.75% of its mining time, on
+   the same pool you mine on, as described in the README and reported in the
+   Software's own log. You agree not to disable, block, circumvent, redirect or
+   alter the developer fee or the log messages that disclose it. This is the
+   only fee; the Software mines for your wallet the remaining 99.25% of the time
+   and sends nothing else anywhere.
+
+3. RESTRICTIONS
+   Except to the extent the following restrictions are prohibited by applicable
+   law, you may not:
+     (a) sell, rent, lease, sublicense, publish, redistribute or otherwise make
+         the Software available to any third party;
+     (b) modify, adapt, translate or create derivative works of the Software;
+     (c) reverse engineer, decompile, disassemble or otherwise attempt to derive
+         the source code, algorithms or internal design of the Software;
+     (d) remove, obscure or alter any copyright, license or other notice in or
+         produced by the Software.
+   Where applicable law gives you a non-waivable right to do any of the above
+   (for example, decompilation strictly necessary for interoperability), that
+   right is not restricted by this Agreement.
+
+4. OWNERSHIP
+   The Software is licensed, not sold. The copyright holder retains all right,
+   title and interest in the Software and all intellectual property in it,
+   except for the third-party components identified in Section 5. No rights are
+   granted except those expressly stated in this Agreement.
+
+5. THIRD-PARTY COMPONENTS
+   The Software includes third-party open-source components, each licensed under
+   its own terms (including ISC, MIT, Apache-2.0 and BSD-3-Clause licenses) and
+   the NVIDIA CUDA runtime under the NVIDIA CUDA EULA. Those components are NOT
+   covered by this Agreement; your rights in them are governed by their
+   respective licenses, which are reproduced in the accompanying
+   THIRD-PARTY-NOTICES file. Nothing in this Agreement limits any right you have
+   under those licenses.
+
+6. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. YOU USE THE SOFTWARE AT
+   YOUR OWN RISK. Mining involves electricity cost, hardware wear and financial
+   risk, and the Software may produce rejected or stale shares or stop working;
+   the copyright holder does not guarantee any earnings or uptime.
+
+7. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM,
+   DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+   OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+   OR OTHER DEALINGS IN THE SOFTWARE, INCLUDING BUT NOT LIMITED TO ANY LOSS OF
+   USE, DATA, PROFITS, CRYPTOCURRENCY OR HARDWARE.
+
+8. TERMINATION
+   This license terminates automatically if you breach any term. On termination
+   you must stop using and delete all copies of the Software.
+
+9. GOVERNING LAW
+   This Agreement is governed by the laws of the United States, without regard
+   to its conflict-of-laws rules.
+
+For questions or permissions beyond this Agreement, contact pin-labs on Discord.
