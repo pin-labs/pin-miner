@@ -39,7 +39,7 @@ Flight sheet, with Miner set to **Custom**:
 | Field | Value |
 |---|---|
 | Miner name | `pin-miner` |
-| Installation URL | the release link of `pin-miner-1.0.tar.gz` |
+| Installation URL | https://github.com/pin-labs/pin-miner/releases/download/pin-v1.0/pin-miner-1.0.tar.gz |
 | Hash algorithm | `pearlhash` |
 | Wallet and worker template | `%WAL%` or `%WAL%.%WORKER_NAME%` (with `%WAL%` the rig's worker name is added automatically) |
 | Pool URL | any Kryptex PRL endpoint above, e.g. `prl-eu.kryptex.network:7048` |
