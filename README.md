@@ -8,6 +8,7 @@ Dev fee: 0.75%
 
 * Linux x86_64 or HiveOS.
 * NVIDIA driver 580 or newer (CUDA 13).
+* GLIBC 2.34 or newer.
 
 ## Supported pools
 
