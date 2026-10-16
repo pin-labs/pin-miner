@@ -18,9 +18,9 @@ Kryptex PRL & Quantus endpoints (TCP & SSL)
 
 | GPU | Hashrate | Board power | Core clock |
 |---|---|---|---|
-| RTX 5070 Ti | 178.5 TH/s | 180 W | 2600 MHz |
-| RTX 4080 SUPER | 198.4 TH/s | 212 W | 2500 MHz |
-| RTX 3070 Laptop GPU | 61.7 TH/s | 75 W | 1550 MHz |
+| RTX 5070 Ti | 179.5 TH/s | 180 W | 2600 MHz |
+| RTX 4080 SUPER | 202.3 TH/s | 210 W | 2500 MHz |
+| RTX 3070 Laptop GPU | 62.9 TH/s | 74 W | 1550 MHz |
 
 ## HiveOS
 
@@ -29,7 +29,7 @@ Flight sheet, with Miner set to **Custom**:
 | Field | Value |
 |---|---|
 | Miner name | `pin-miner` |
-| Installation URL | the release link of `pin-miner-2.0.tar.gz` |
+| Installation URL | the release link of `pin-miner-2.1.tar.gz` |
 | Hash algorithm | `pearlhash` |
 | Wallet and worker template | `%WAL%` or `%WAL%.%WORKER_NAME%` (with `%WAL%` the rig's worker name is added automatically) |
 | Pool URL | any Kryptex PRL endpoint above, e.g. `prl-eu.kryptex.network:7048` |
