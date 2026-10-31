@@ -36,6 +36,18 @@ Flight sheet, with Miner set to **Custom**:
 | Pass | x |
 | Extra config | (empty), or `--devices 0,1` to use only some GPUs, or`--tune` to enable offset tuning   |
 
+## Offset autotune added
+
+To enable offset tuning, add `--tune` to the flight sheet's Extra config.
+
+`--tune-reset` deletes all existing tuning files and retunes every GPU from scratch.
+
+By default, autotune stops when a step saves less than 0.3 W. To lower this threshold, add the `--tune-plateau` setting. For example, to keep tuning until a step saves less than 0.1 W, add the following to the flight sheet's Extra config:
+
+```
+--tune --tune-plateau 0.1
+```
+
 ## Disclosures
 
 All rights reserved. Unauthorized use, copying, reverse engineering or redistribution is strictly prohibited. This
