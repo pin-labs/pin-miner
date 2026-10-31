@@ -36,7 +36,7 @@ Flight sheet, with Miner set to **Custom**:
 | Pass | x |
 | Extra config | (empty), or `--devices 0,1` to use only some GPUs, or`--tune` to enable offset tuning   |
 
-## Offset autotune added
+## Offset autotune
 
 To enable offset tuning, add `--tune` to the flight sheet's Extra config.
 
