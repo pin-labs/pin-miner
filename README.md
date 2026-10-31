@@ -18,9 +18,9 @@ Kryptex PRL & Quantus endpoints (TCP & SSL)
 
 | GPU | Hashrate | Board power | Core clock |
 |---|---|---|---|
-| RTX 5070 Ti | 179.5 TH/s | 180 W | 2600 MHz |
-| RTX 4080 SUPER | 202.3 TH/s | 210 W | 2500 MHz |
-| RTX 3070 Laptop GPU | 62.9 TH/s | 74 W | 1550 MHz |
+| RTX 5070 Ti | 202.2 TH/s | 198 W | 2850 MHz |
+| RTX 4080 SUPER | 211.7 TH/s | 206 W | 2600 MHz |
+| RTX 3070 Laptop GPU | 68.3 TH/s | 83 W | 1675 MHz |
 
 ## HiveOS
 
@@ -34,7 +34,7 @@ Flight sheet, with Miner set to **Custom**:
 | Wallet and worker template | `%WAL%` or `%WAL%.%WORKER_NAME%` (with `%WAL%` the rig's worker name is added automatically) |
 | Pool URL | any Kryptex PRL endpoint above, e.g. `prl-eu.kryptex.network:7048` |
 | Pass | x |
-| Extra config | (empty), or `--devices 0,1` to use only some GPUs |
+| Extra config | (empty), or `--devices 0,1` to use only some GPUs, or`--tune` to enable offset tuning   |
 
 ## Disclosures
 
